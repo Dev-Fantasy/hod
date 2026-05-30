@@ -1,0 +1,39 @@
+/* comments: keywords only */
+
+
+/* full screen mergin padding reset */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+/* video content */
+.video-background-1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+/* Fullscreen video & aspect ratio */
+.video-background-1 video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /*  */
+}
+
+/* body contents */
+.content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  padding-top: 20%;
+  font-family: Arial, sans-serif;
+}
